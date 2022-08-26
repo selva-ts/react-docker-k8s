@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  react-docker-k8s:
+    image: selvas82/react-docker-k8s
+    ports:
+      - "3639:80"
+    environment:
+      - "BACKEND_API_URL=https://test-url-api.com/api"
+      - "UI_VERSION=2.8.0"

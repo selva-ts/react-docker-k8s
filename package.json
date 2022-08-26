@@ -1,5 +1,5 @@
 {
-  "name": "cra-18-ts",
+  "name": "react-docker-k8s",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
